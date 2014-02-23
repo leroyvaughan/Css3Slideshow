@@ -1,0 +1,39 @@
+body, html {
+  height: 100%; }
+
+body {
+  background-color: #000; }
+
+#content {
+  text-align: center; }
+  #content #slideWrap {
+    background-color: #ccc;
+    display: inline-block;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 300px; }
+    #content #slideWrap > div {
+      display: inline-block;
+      left: -200px;
+      list-style-type: none;
+      position: absolute;
+      top: 50px;
+      width: auto;
+      height: 200px;
+      width: 200px;
+      transition: left 1s ease-in; }
+    #content #slideWrap div:first-child, #content #slideWrap div:first-child + div + div {
+      color: yellow;
+      background-color: red; }
+    #content #slideWrap div:first-child + div, #content #slideWrap div:first-child + div + div + div {
+      color: red;
+      background-color: yellow; }
+
+#myConsole {
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+  DISPLAY: NONE; }
+
