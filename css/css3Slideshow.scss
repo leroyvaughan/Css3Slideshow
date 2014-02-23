@@ -1,0 +1,48 @@
+@import 'mixins';
+
+body, html
+{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color:#0B3C4B;
+}
+
+#content{
+    text-align:center;
+
+    #slideWrap{
+        @include setBorder(3px solid #ccc, 12px);
+        background-color:#111;
+        display:inline-block;
+        height:400px;
+        margin:0 auto;
+        overflow:hidden;
+        position:relative;
+        width:575px;
+
+        > div{
+            @include dropShadow;
+            @include rndCorners(5px);
+            display:inline-block;
+            height:350px;
+            left:-650px;
+            list-style-type:none;
+            overflow:hidden;
+            position:absolute;
+            top:22px;
+            width:525px;
+            transition: left 1s ease-in;
+        }
+    }
+}
+
+
+#myConsole{
+    background-color:blue;
+    color:#fff;
+    font-weight:bold;
+
+    DISPLAY:NONE;
+}

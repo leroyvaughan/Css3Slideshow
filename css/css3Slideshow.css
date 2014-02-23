@@ -1,0 +1,48 @@
+/* two color gradient */
+body, html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  background-color: #0B3C4B; }
+
+#content {
+  text-align: center; }
+  #content #slideWrap {
+    border: 3px solid #cccccc;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    behavior: url(css/PIE.htc);
+    background-color: #111;
+    display: inline-block;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 575px; }
+    #content #slideWrap > div {
+      box-shadow: 0px 0px 65px -4px #555555;
+      -moz-box-shadow: 0px 0px 65px -4px #555555;
+      -webkit-box-shadow: 0px 0px 65px -4px #555555;
+      behavior: url(css/PIE.htc);
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      behavior: url(css/PIE.htc);
+      display: inline-block;
+      height: 350px;
+      left: -650px;
+      list-style-type: none;
+      overflow: hidden;
+      position: absolute;
+      top: 22px;
+      width: 525px;
+      transition: left 1s ease-in; }
+
+#myConsole {
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+  DISPLAY: NONE; }
+
