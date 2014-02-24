@@ -7,4 +7,4 @@ With images, some CSS3 Decorations, still gracefully degrades...
 
 Phase 3 will include buttons and possibly a delayed image loader.
 
-http://glvconsulting.com/sandbox/css3/Css3Slideshow/default.html
+http://glvconsulting.com/sandbox/css3/Css3Slideshow/phase2.html
