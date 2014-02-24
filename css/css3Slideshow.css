@@ -9,7 +9,7 @@ body {
 #content {
   text-align: center; }
   #content #slideWrap {
-    border: 3px solid #cccccc;
+    border: 1px solid #eeeeee;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px;
@@ -39,6 +39,40 @@ body {
       top: 22px;
       width: 525px;
       transition: left 1s ease-in; }
+  #content #nav {
+    background-color: black;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(50%, #222222), color-stop(100%, black));
+    background-image: -webkit-linear-gradient(top, black 0%, #222222 50%, black 100%);
+    background-image: -moz-linear-gradient(top, black 0%, #222222 50%, black 100%);
+    background-image: -ms-linear-gradient(top, black 0%, #222222 50%, black 100%);
+    background-image: -o-linear-gradient(top, black 0%, #222222 50%, black 100%);
+    background-image: linear-gradient(top, black 0%, #222222 50%, black 100%);
+    -pie-background: linear-gradient(top, black, #222222, black);
+    behavior: url(css/PIE.htc);
+    border: 1px solid #eeeeee;
+    -moz-border-radius: 12px 12px 15px 15px;
+    -webkit-border-radius: 12px 12px 15px 15px;
+    border-radius: 12px 12px 15px 15px;
+    behavior: url(css/PIE.htc);
+    margin: 0 auto;
+    width: 595px; }
+    #content #nav .button {
+      background-color: transparent;
+      border: none;
+      color: #222;
+      cursor: pointer;
+      display: inline-block;
+      font-family: freeSans;
+      font-size: 42px;
+      margin: 0 5px;
+      padding: 0; }
+      #content #nav .button:hover {
+        color: #777;
+        text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff, 0 0 0.2em #fff; }
+    #content #nav .ie8 {
+      font-size: 30px; }
+    #content #nav .active {
+      color: #434343; }
 
 #myConsole {
   background-color: blue;

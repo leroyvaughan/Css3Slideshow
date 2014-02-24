@@ -13,7 +13,7 @@ body{
     text-align:center;
 
     #slideWrap{
-        @include setBorder(3px solid #ccc, 12px);
+        @include setBorder(1px solid #eee, 12px);
         background-color:#111;
         display:inline-block;
         height:400px;
@@ -36,6 +36,37 @@ body{
             transition: left 1s ease-in;
         }
     }
+
+    #nav{
+        @include ThreeColorGradient(#000, #222, #000);
+        @include setBorder(1px solid #eee, 12px 12px 15px 15px);
+        margin:0 auto;
+        width:595px;
+
+        .button{
+            background-color:transparent;
+            border:none;
+            color:#222;
+            cursor:pointer;
+            display:inline-block;
+            font-family:freeSans;
+            font-size:42px;
+            margin:0 5px;
+            padding:0;
+
+            &:hover{
+                color:#777;
+                text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff, 0 0 0.2em #fff;
+            }
+        }
+        .ie8{
+            font-size:30px;
+        }
+        .active{
+            color:#434343;
+        }
+    }
+
 }
 
 
