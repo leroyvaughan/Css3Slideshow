@@ -7,7 +7,7 @@ Barebones slideshow with colored divs only.  I used Native JavaScript, CSS3 Tran
 It does gracefully degrade though, so still functional...just not a transitional slideshow
 
 
-
-http://glvconsulting.com/sandbox/css3/Css3Slideshow/phase1.html
+Link is now dead...
+~~http://glvconsulting.com/sandbox/css3/Css3Slideshow/phase1.html~~
 
 For Phase 2, see the Phase2 Branch of thie project
